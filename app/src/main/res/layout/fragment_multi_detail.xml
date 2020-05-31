@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.detail.multi.MultiDetailFragment">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp_multiimage"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+        app:dotsColor="@color/colorAccent"
+        app:selectedDotColor="@color/colorAccent"
+        android:id="@+id/dotsindicator_multiimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/vp_multiimage"
+        app:layout_constraintEnd_toEndOf="@id/vp_multiimage"
+        app:layout_constraintStart_toStartOf="@id/vp_multiimage" />
+
+    <TextView
+        android:id="@+id/tv_multiimage_title"
+        style="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/paddingLayout"
+        android:paddingStart="@dimen/paddingLayout"
+        android:paddingEnd="@dimen/paddingLayout"
+        app:layout_constraintTop_toBottomOf="@id/vp_multiimage"
+        tools:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_multiimage_subtitle"
+        style="@style/TextAppearance.MdcTypographyStyles.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/paddingLayout"
+        android:paddingEnd="@dimen/paddingLayout"
+        app:layout_constraintTop_toBottomOf="@id/tv_multiimage_title"
+        tools:text="@string/app_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

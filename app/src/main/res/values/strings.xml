@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DOT Internship Test</string>
+    <string name="splash_screen_text">Internship Test</string>
+    <string name="list_bottomnavbar">List</string>
+    <string name="gallery_bottomnavbar">Gallery</string>
+    <string name="profile_bottomnavbar">Profile</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

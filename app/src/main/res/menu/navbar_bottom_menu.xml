@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/list_bottomnavbar_menu"
+        android:title="@string/list_bottomnavbar"
+        android:icon="@drawable/ic_home_24dp"/>
+    <item
+        android:id="@+id/gallery_bottomnavbar_menu"
+        android:title="@string/gallery_bottomnavbar"
+        android:icon="@drawable/ic_photo_library_24dp"/>
+    <item
+        android:id="@+id/profile_bottomnavbar_menu"
+        android:title="@string/profile_bottomnavbar"
+        android:icon="@drawable/ic_person_24dp"/>
+</menu>

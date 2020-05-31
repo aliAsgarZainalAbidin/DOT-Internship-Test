@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearlayout_singleimage_container"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:padding="@dimen/paddingLayout"
+        android:id="@+id/iv_singleimage_image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="@dimen/marginItem"
+        android:scaleType="centerCrop"
+        android:src="@drawable/place" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:paddingStart="@dimen/paddingLayout"
+        android:paddingEnd="@dimen/paddingLayout"
+        android:id="@+id/tv_singleimage_title"
+        style="@style/TextAppearance.MdcTypographyStyles.Subtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginItem"
+        tools:text="Title Image" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:paddingStart="@dimen/paddingLayout"
+        android:paddingEnd="@dimen/paddingLayout"
+        android:id="@+id/tv_singleimage_content"
+        style="@style/TextAppearance.MdcTypographyStyles.Subtitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Text Content" />
+
+</LinearLayout>
